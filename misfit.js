@@ -11,9 +11,9 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'armor pls') {
-    	message.reply('ID Proof required!');
+client.on('message1', message1 => {
+    if (message1.content === 'armor pls') {
+    	message1.reply('ID Proof required!');
   	}
 });
 
