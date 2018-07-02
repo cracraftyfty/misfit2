@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'help') {
-    	message.reply('CraftTech is still training me so please Hold up :D');
+    	message.reply('Soilders are arming and reloading!! Give em time u will get help soon! HOORAH!!');
   	}
 });
 
