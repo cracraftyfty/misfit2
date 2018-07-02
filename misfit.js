@@ -11,11 +11,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message1', message1 => {
-    if (message1.content === 'armor pls') {
-    	message1.reply('ID Proof required!');
-  	}
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
