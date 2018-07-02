@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'help') {
     	message.reply('Soilders are arming and reloading!! Give em time u will get help soon! HOORAH!!');
-        break ()
+        break () ;
   	}
 });
 
